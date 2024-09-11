@@ -4687,3 +4687,32 @@ input, select, textarea {
 		}
 
 	}
+
+		/* Home button styling */
+		.home-button {
+			display: inline-block;
+			width: 100px;
+			/* Updated width */
+			height: 100px;
+			/* Updated height */
+			border-radius: 50%;
+			background-color: #333;
+			/* Adjust the background color as needed */
+			color: #fff;
+			text-align: center;
+			line-height: 100px;
+			/* Match the height for vertical alignment */
+			font-size: 40px;
+			/* Adjusted font size for the larger button */
+			text-decoration: none;
+			transition: background-color 0.3s ease;
+		}
+	
+		.home-button:hover {
+			background-color: #555;
+			/* Change color on hover */
+		}
+	
+		.home-button .fa-home {
+			vertical-align: middle;
+		}
