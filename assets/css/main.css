@@ -3902,11 +3902,11 @@ input, select, textarea {
 				}
 
 				#main > .posts > article:nth-child(2n - 1) {
-					border-left-width: 2px;
+					border-left-width: 0px;
 				}
 
 				#main > .posts > article:nth-child(-n + 2) {
-					border-top-width: 2px;
+					border-top-width: 0px;
 				}
 
 				#main > .posts > article:nth-child(n) {
